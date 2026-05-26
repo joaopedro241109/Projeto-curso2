@@ -4,10 +4,10 @@ function Header() {
 
     return (
         <header>
-            <div className="Headertopo">
+            <div className="headertopo">
                 <h1>Curso Técnico em Desenvolvimento de Sistema</h1>
             </div>
-            <nav className="HeaderMenu">
+            <nav className="headerMenu">
                 <ul>
                     <li><Link to = "/">Home</Link></li>
                     <li><Link to = "/sobreCurso"> Sobre o Curso</Link></li>

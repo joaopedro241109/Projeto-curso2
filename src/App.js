@@ -9,7 +9,7 @@ import Erro from './componentes/Erro';
 import Equipe from './componentes/Equipe';
 import DisciplinasCurriculares from './componentes/DisciplinasCurriculares';
 import DisciplinasTecnicas from "./componentes/DisciplinasTecnicas";
-import LisatarDisciplinaCurricular from './componentes/ListarDisciplinaCurricular';
+import ListarDisciplinaCurricular from './componentes/ListarDisciplinaCurricular';
 import ListarDisciplinaTecnica from './componentes/ListarDisplinasTecnica';
 import SobreCurso from "./componentes/SobreCurso";
 
@@ -19,14 +19,14 @@ function App() {
       <>
         <Header />
         <Routes>
-        <Route path="*" element={<Error/>}/>
+        <Route path="*" element={<Erro/>}/>
         <Route path="/" element={<Main/>}/>
         <Route path="/sobreCurso" element = {<SobreCurso/>}/>
         <Route path="/disciplinasTecnicas" element = {<DisciplinasTecnicas/>}/>
         <Route path="/disciplinasCurriculares" element = {<DisciplinasCurriculares/>}/>
 
 <Route path="/disciplinaTecnica/:id" element = {<ListarDisciplinaTecnica   />}/>
-<Route path="/disciplinaCurricular/:id" element = {<LisatarDisciplinaCurricular/>}/>
+<Route path="/disciplinaCurricular/:id" element = {<ListarDisciplinaCurricular/>}/>
 
         <Route path="/equipe" element = {<Equipe/>}/>
         </Routes>
