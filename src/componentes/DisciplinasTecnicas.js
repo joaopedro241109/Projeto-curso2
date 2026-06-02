@@ -6,7 +6,7 @@ function DisciplinasTecnicas(){
             <header className='headerDisclinas'>
                <h1>DisciplinasTecnicas</h1>
             </header>
-            <div className='constentDisciplinas'>
+            <div className='contentDisciplinas'>
             { 
             dadosDisciplinasTecnicas.map(
             (item, index) =>(

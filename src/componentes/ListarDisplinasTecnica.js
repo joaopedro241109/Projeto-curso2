@@ -1,7 +1,7 @@
 function ListarDisciplinaTecnica(){
     return(
        <div>
-           <h1>Rota não existe!!!</h1>
+           <h1>ListarDisciplinaTecnica</h1>
        </div>
 
     )

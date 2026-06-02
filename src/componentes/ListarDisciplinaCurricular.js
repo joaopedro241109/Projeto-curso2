@@ -1,7 +1,7 @@
 function LisatarDisciplinaCurricular(){
     return(
        <div>
-           <h1>Rota não existe!!!</h1>
+           <h1>LisatarDisciplinaCurricular</h1>
        </div>
 
     )

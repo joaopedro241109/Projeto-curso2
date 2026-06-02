@@ -8,6 +8,8 @@ function Footer() {
                     <li> Disciplinas Curriclares </li>
                     <li>Disciplinas Técnicas </li>
                     <li>Equipe </li>
+                    <li>ListarDisciplinaCurricular</li>
+                    <li>ListarDisciplinaTecnica</li>
                 </ul>
             </div>
             <div className="credenciais">

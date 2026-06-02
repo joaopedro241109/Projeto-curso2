@@ -14,8 +14,7 @@ function Header() {
                     <li><Link to = "/disciplinasCurrivulares"> disciplinas Curriculares</Link></li>
                     <li><Link to = "/disciplinasTecnicas"> disciplinas Técnicas</Link></li>
                     <li><Link to = "/equipe">Equipe</Link></li>
-                    <li><Link to = "/ListarDisciplinaTecnica">ListarDisciplinaTecnica</Link></li>
-                    <li><Link to = "/ListarDisciplinaCurricular">ListarDisciplinaCurricular</Link></li>
+                  
                     
                 </ul>
             </nav>
