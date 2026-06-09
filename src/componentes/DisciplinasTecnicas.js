@@ -11,7 +11,7 @@ function DisciplinasTecnicas(){
             dadosDisciplinasTecnicas.map(
             (item, index) =>(
             <article key={index}>
-                <img src={item.Link_imagem}
+                <img src={item.link_imagem}
                     alt={item.nome}
                     title={item.nome} />
                <h2>{item.nome} - {item.sigla}</h2>

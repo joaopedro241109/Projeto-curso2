@@ -11,7 +11,7 @@ function Header() {
                 <ul>
                     <li><Link to = "/">Home</Link></li>
                     <li><Link to = "/sobreCurso"> Sobre o Curso</Link></li>
-                    <li><Link to = "/disciplinasCurrivulares"> disciplinas Curriculares</Link></li>
+                    <li><Link to = "/disciplinasCurriculares"> disciplinas Curriculares</Link></li>
                     <li><Link to = "/disciplinasTecnicas"> disciplinas Técnicas</Link></li>
                     <li><Link to = "/equipe">Equipe</Link></li>
                   

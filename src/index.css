@@ -39,6 +39,16 @@ header .headerMenu li{
   font-size:25px;
 }
 
+header .headerMenu li a{
+  color: #000000;
+  cursor:pointer;
+}
+
+header .headerMenu li a:hover{
+  color :red;
+}
+
+
 /*footer*/
 footer{
 width:100%;
@@ -51,6 +61,7 @@ background-color:rgb(48, 49, 49);
 
 footer .menuFooter{
 width:20%;
+margin-left: 20px;
 
 }
 footer .menuFooter ul{
@@ -62,8 +73,17 @@ font-size:18px;
 height:25px;
 }
 
+footer .menuFooter li a{
+  color: #333;
+  border-bottom: 1px dotted #c2c2c2;
+}
+
+footer .menuFooter li a:hover{
+  color: red;
+}
+
 footer .credenciais{
-width:80%;
+width:60%;
 text-align:center;
 }
 

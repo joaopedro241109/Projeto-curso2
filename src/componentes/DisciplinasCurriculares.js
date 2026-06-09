@@ -1,5 +1,5 @@
 import dadosDisciplinasCurriculares from "../dados/dadosDisciplinasCurriculares";
-function disciplinasCurriculares(){
+function DisciplinasCurriculares(){
     return (
         <section className='disciplinas'>
             <header className='headerDisclinas'>
@@ -23,4 +23,4 @@ function disciplinasCurriculares(){
 
   )
 }
-export default disciplinasCurriculares;
+export default DisciplinasCurriculares;

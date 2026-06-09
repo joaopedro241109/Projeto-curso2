@@ -1,7 +1,8 @@
 function SobreCurso(){
     return(
+        
        <div>
-           <h1>Rota não existe!!!</h1>
+           <title>Meu Curso</title>
        </div>
 
     )
